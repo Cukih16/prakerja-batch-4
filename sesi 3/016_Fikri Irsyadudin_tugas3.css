@@ -1,0 +1,105 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+  background: linear-gradient(97deg, #F55D0D 0%, #7C0953 100%) no-repeat padding-box;
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background: linear-gradient(97deg, #F55D0D 0%, #7C0953 100%) no-repeat padding-box;
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section {
+  margin: 20px;
+}
+
+#profile {display: flex;}
+  #profile-photo {flex:1; margin-right:5px;}
+  #foto-profil {align-content: center; border-radius:10%;
+    border-style: solid;
+    border-color: black; max-width: 360px; max-height:300px;}
+  #Profile_dan_button {flex: 1; display: flex; flex-direction: column;}
+  #profile-text {margin-left:5px; text-align: left; vertical-align: top;
+    background: linear-gradient(97deg, #F55D0D 0%, #7C0953 100%) no-repeat padding-box;
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent}
+    #kontak {background-color: grey; /* Green */
+      border: none;
+      color: white;
+      padding: 10px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    
+    #kontak:hover {
+      background-color: #4CAF50; /* Grey */
+      color: white;
+    }
+    #resume {background-color: grey; /* Grey */
+      border: none;
+      color: white;
+      padding: 10px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    
+    #resume:hover {
+      background-color: #4CAF50; /* Green */
+      color: white;
+    }
+  #detail,td,tr,th {flex:3; margin-left:5px; padding:8px;}
+
+form {font-weight: bold;
+  background-color: white;
+}
+
+
+form input {margin-top: 3px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  width: 10%;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* tambahkan CSS untuk section profile disini */
