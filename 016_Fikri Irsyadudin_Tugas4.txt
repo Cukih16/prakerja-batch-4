@@ -1,0 +1,16 @@
+HITUNG LUAS DAN KELILING LINGKARAN
+
+SIMPAN "konstanta" dengan nilai 22/7 atau 3,14
+SIMPAN "diameter" dengan nilai berapapun
+SIMPAN "jari-jari" dengan nilai berapapun atau 
+    jika tidak diketahui SIMPAN  "jari-jari" dengan nilai "diameter" dibagi 2
+SIMPAN "Luas Lingkaran" tanpa diberikan nilai.
+SIMPAN "Keliling Lingkaran" tanpa diberikan nilai.
+
+HITUNG hasil "konstanta" dikali "Jari-jari" dipangkat 2
+Setelah mendapatkan hasil perhitungan, isikan hasilnya ke dalam "Luas Lingkaran"
+HITUNG hasil 2 dikali "konstanta" dikali "jari-jari"
+Setelah mendapatkan hasil perhitungan, isikan hasilnya ke dalam "Keliling Lingkaran"
+
+TAMPILKAN nilai dari "Luas Lingkaran"
+TAMPILKAN nilai dari "Keliling Lingkaran"
