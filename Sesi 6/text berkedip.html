@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contoh HTML 3 Baris Kalimat Berkedip dengan Warna yang Berbeda</title>
+	<style>
+		.blink {
+			animation: blinker 0.6s linear infinite;
+		}
+		@keyframes blinker {
+			50% {
+				opacity: 0;
+			}
+		}
+		.red {
+			color: red;
+		}
+		.green {
+			color: green;
+		}
+		.blue {
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<p class="blink red">Ini adalah baris pertama.</p>
+	<p class="blink green">Ini adalah baris kedua.</p>
+	<p class="blink blue">Ini adalah baris ketiga.</p>
+</body>
+</html>

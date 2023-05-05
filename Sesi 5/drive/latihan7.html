@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="tombol" onclick="tampilkan_nama()" onmouseover="ganti_teks()" onmouseout="reset_teks()">
+        KLIK SAYA
+    </button>
+    <div id="hasil"></div>
+
+    <script>
+        function tampilkan_nama() {
+            document.getElementById("hasil").innerHTML = "Hacktiv8 Prakerja";
+        }
+        function ganti_teks() {
+            document.getElementById("tombol").innerHTML = "Sedang dihover"
+        }
+        function reset_teks() {
+            document.getElementById("tombol").innerHTML = "KLIK SAYA"
+        }
+    </script>
+</body>
+
+</html>

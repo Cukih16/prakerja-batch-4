@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 5 : Implementasi Looping</title>
+</head>
+<body>
+    <label>Pesan :</label><input id="pesan" type="text"><br>
+    <label>Berapa kali :</label><input id="hitung" type="number"><br>
+    <button onclick="cetak()">Cetak!</button>
+    <ol id="hasil"></ol>
+    
+
+    <script>
+        // (mohon maaf telat kumpulin tugasnya, mohon koreksinya jika tidak sesuai ekspektasi)
+       
+        function cetak() {
+            let pesan = document.getElementById("pesan").value;
+            const hitung = document.getElementById("hitung").value;
+            for (let index = 0; index < hitung; index++) 
+            {document.getElementById("hasil").innerHTML =  hasil.innerHTML +`<li>${pesan}</li>`; }
+         }
+        
+        
+    </script>
+</body>
+</html>

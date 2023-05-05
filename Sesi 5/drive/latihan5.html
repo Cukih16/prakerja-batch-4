@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Object</title>
+</head>
+<body>
+    <div id="hasil"></div>
+    <script>
+        // tipe data object, ciri2nya menggunakan kurung kurawal {}
+        let manusia = {
+            nama: "Hacktiv8",
+            usia: 20,
+            lokasi: "Jakarta"
+        };
+
+        document.getElementById("hasil").innerHTML =
+        // "Nama saya adalah " + manusia.nama + ", usia saya " + manusia.usia + " tahun";
+        `Nama saya adalah ${manusia.nama}, usia saya ${manusia.usia} tahun`;
+    </script>
+</body>
+</html>

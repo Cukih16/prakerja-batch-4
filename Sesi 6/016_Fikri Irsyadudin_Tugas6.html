@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Tugas Sesi 6 Hacktiv8</title>
+	<style>
+		/*daftar warna yang akan digunakan */
+		.merah {
+			color: red;
+		}
+
+		.hijau {
+			color: forestgreen;
+		}
+
+		.biru {
+			color: blue;
+		}
+
+		.kuning {
+			color: gold;
+		}
+	</style>
+
+</head>
+
+<body>
+	<p id="baris1">Saya senang belajar hal baru.</p>
+	<p id="baris2">Terutama ilmu di bidang teknologi digital dan finansial.</p>
+	<p id="baris3">Terima kasih <b id="hacktiv8">Hacktiv8</b> telah menyediakan course <b id="course">"Fundamental
+			menjadi Web Developper"</b></p>
+
+	<script>
+		// Menentukan baris yang akan diberi warna
+		var b1 = document.getElementById("baris1");
+		var b2 = document.getElementById("baris2");
+		var b3 = document.getElementById("baris3");
+		// Ambil text kata yang di bold/tebal dan diberi warna yang berbeda
+		var hacktiv8 = document.getElementById("hacktiv8")
+		var course = document.getElementById("course")
+		// Daftar warna yang akan digunakan ambil dari style
+		var colors = ["merah", "hijau", "biru", "kuning"];
+		// Mengubah warna tiap 1 detik menggunakan setInterval
+		setInterval(function () {
+			b1.classList.toggle(colors[0]);
+			b2.classList.toggle(colors[1]);
+			b3.classList.toggle(colors[2]);
+			hacktiv8.classList.toggle(colors[3]);
+			course.classList.toggle(colors[3]);
+		}, 1000);
+
+		// Menghapus warna setelah 1 detik berganti warna menggunakan setTimeout
+		setTimeout(function () {
+			b1.classList.remove(colors[0]);
+			b2.classList.remove(colors[1]);
+			b3.classList.remove(colors[2]);
+			hacktiv8.classList.remove(colors[3]);
+			course.classList.remove(colors[3]);
+		}, 1000);
+
+	</script>
+</body>
+
+</html>
